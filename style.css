@@ -1,0 +1,541 @@
+/** {
+  border:3px dashed white;
+}*/
+
+img {
+  max-width:100%;
+}
+
+body {
+  font-family: Verdana;
+  background: linear-gradient(to right, #280463, #1300e8);
+  margin:0;
+  padding:0;
+}
+
+header, nav, main, footer, aside{
+   border-radius:7px;
+}
+
+header nav main footer aside{
+  border-radius:7px;
+}
+
+header {
+    grid-area:header;
+    background:#FF0000;
+    text-align:center;
+}
+
+.headerpic {
+  grid-area:headerpic;
+  padding:5px;
+  height:10vmax;
+  animation:logo .5s;
+}
+
+.headertext {
+ grid-area:headertext;
+ text-align:center;
+}
+
+.headerwrapper {
+  display:grid;
+  justify-items:center;
+  align-items:center;
+  grid-template-columns:25% 1fr;
+  grid-template-areas:
+  "headerpic headertext";
+}
+
+header h1 {
+     font-size:5vw;
+     color:#ffffff;
+     font-family:Impact;
+     text-shadow: 2px 2px 5px #00FF00;
+     margin: 0;
+     animation:words 1.5s;
+}
+
+header h3 {
+    font-size:3vw;
+    color:#ffffff;
+    margin:0;
+    animation:words 2s;
+}
+nav {
+    grid-area:nav;
+    background:#226324;
+    }
+
+nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:#ffffff;
+}
+nav a:hover {
+    text-shadow:0 0 10px #FF3131, 0 0 20px #1F51FF;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+main {
+    grid-area:main;
+    background:#0000FF;
+    color:#0000B0;
+    padding:5px;
+    }
+
+main p {
+    text-align:center;
+    color:white;
+    padding:1% 2%;
+    font-size:1em;
+}
+
+main h2 {
+  color:white;
+  text-align:center;
+}
+
+h3 {
+  color:white;
+}
+
+li {
+  color:white;
+}
+
+main a {
+ color:navy;
+}
+
+aside {
+  grid-area:aside;
+  background:purple;
+}
+
+aside p {
+  font color:black;
+}
+
+aside h2 {
+  color:black;
+}
+
+
+
+form {
+    background-color:#FFA500;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+
+footer {
+    grid-area:footer;
+    background:yellow;
+    padding:5px;
+    text-align:center;
+    }
+
+footer p {
+     font-size:1em;
+     color:white;
+     text-shadow: 4px 4px 5px blue;
+     margin:0;
+}
+
+div1 {
+  color:white;
+}
+
+.homec {
+  grid-area:homec;
+  color:white;
+}
+.homed {
+  grid-area:homed;
+  color:white;
+}
+.homee {
+  grid-area:homee;
+  color:white;
+}
+.homef {
+  grid-area:homef;
+  color:white;
+}
+.packc {
+  grid-area:packc;
+}
+.packd {
+  grid-area:packd;
+}
+.packe {
+  grid-area:packe;
+}
+.eventd {
+  grid-area:eventd;
+}
+.evente {
+  grid-area:evente;
+}
+.eventf {
+  grid-area:eventf;
+}
+.eventg {
+  grid-area:eventg;
+}
+.eventh {
+  grid-area:eventh;
+}
+.audio1 {
+  grid-area:audio1;
+  animation:logo 1s;
+}
+.audio2 {
+  grid-area:audio2;
+  animation:logo 1s;
+}
+.video1 {
+  grid-area:video1;
+  animation:logo 1s;
+}
+.video2 {
+  grid-area:video2;
+  animation:logo 1s;
+}
+.pic1 {
+  grid-area:pic1;
+  animation:logo 1s;
+}
+.pic2 {
+  grid-area:pic2;
+  animation:logo 1s;
+}
+.pic3 {
+  grid-area:pic3;
+  animation:logo 1s;
+}
+
+.pic4 {
+  grid-area:pic4;
+  animation:logo 1s;
+}
+
+.pic5 {
+  grid-area:pic5;
+  animation:logo 1s;
+}
+
+.pic6 {
+  grid-area:pic6;
+  animation:logo 1s;
+}
+.pic7 {
+  grid-area:pic7;
+  animation:logo 1s;
+}
+.pic8 {
+  grid-area:pic8;
+  animation:logo 1s;
+}
+.pic9 {
+  grid-area:pic9;
+  animation:logo 1s;
+}
+.pic10 {
+  grid-area:pic10;
+  animation:logo 1s;
+}
+.pic11 {
+  grid-area:pic11;
+  animation:logo 1s;
+}
+.pic12 {
+  grid-area:pic12;
+  animation:logo 1s;
+}
+.pic13 {
+  grid-area:pic13;
+  animation:logo 1s;
+}
+.pic14 {
+  grid-area:pic14;
+  animation:logo 1s;
+}
+.pic15 {
+  grid-area:pic15;
+  animation:logo 1s;
+}
+.pic16 {
+  grid-area:pic16;
+  animation:logo 1s;
+}
+.pic17 {
+  grid-area:pic17;
+  animation:logo 1s;
+}
+.pic18 {
+  grid-area:pic18;
+  animation:logo 1s;
+}
+.dj {
+  grid-area:dj;
+  margin-left:350px;
+}
+
+@keyframes logo {
+   0% {
+      opacity: 0;
+      transform:  translatey(1em);
+   }
+   100% {
+      opacity: 1;
+      transform: translatey(0);
+   }
+}
+
+@keyframes words {
+   0% {
+      opacity: 0;
+      transform: translateX(1em);
+   }
+    50% {
+      opacity: .5;
+      transform: translateY(.1em);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+/*parallax*/
+html {
+    height:100%;
+}
+
+body {
+  font-family: Verdana;
+  background-color:gray;
+  margin:0;
+  background: url('dis.png') no-repeat center center;
+  background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    }
+    
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("dis.png") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+/*----------------------------------Mobile Layout----------------------*/
+.container1 { /*tests.html contact.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:80vh 1% 1% 1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+    
+.container2 { /*tests.html contact.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:80vh 1% 1% 1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+}
+
+    .nestedgrid2 {
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-areas:
+  "header"
+  "nav"
+  "main"
+  "footer"
+}
+
+
+
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+    
+    
+    
+    /*-----------------------Tablet Media Query------------------------*/
+@media only screen and (min-width: 480px)  {
+.container1 { /*tests.html contact.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer";
+    }
+    
+    @media only screen and (min-width: 480px)  {
+.container2 { /*tests.html contact.html*/
+  grid-template-columns:auto auto auto;
+  grid-template-areas:
+  "header header header"
+  "nav main aside"
+  "footer footer footer";
+    }
+    
+
+    
+    .nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "div1"
+  "div2";
+}
+
+/* Below will change from hamburger menu to side navigation*/
+  
+.toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:left;
+  }
+
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+  }
+
+}
+    /*-----------------------Desktop Media Query------------------------*/
+@media only screen and (min-width: 960px)  {
+
+.container1 { /*tests.html contact.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
+    
+    @media only screen and (min-width: 480px)  {
+.container2 { /*tests.html contact.html*/
+  grid-template-columns:auto auto auto;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+    }
+    
+  
+    
+.nestedgrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+"homec audio1 video1"
+"homec audio2 video2"
+"homed homee homef"
+"pic1 pic2 pic3";
+}
+
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "div1 div2";
+}
+
+.nestedgrid3 {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+"pic4 pic5 pic6"
+"packc packd packe"
+}
+
+.nestedgrid4 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "eventd evente"
+  "pic8 pic9"
+  "eventf eventg"
+  "pic10 pic11"
+}
+
+.nestedgrid5 {
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas:
+ "pic12 eventh"
+}
+
+.nestedgrid6 {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+ "pic13 pic14 pic15"
+ "pic16 pic17 pic18"
+}
+
+}
